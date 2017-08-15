@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  TestScrollView
+//
+//  Created by Tesla_Chen on 2017/6/15.
+//  Copyright © 2017年 Telsa_Chen. All rights reserved.
+//
+
+
+#import "Masonry.h"
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define NOTIFICENTER       [NSNotificationCenter defaultCenter]
+#define USERDEFAULT        [NSUserDefaults standardUserDefaults]
+#define RGB(r,g,b)         [UIColor colorWithRed:r/255. green:g/255. blue:b/255. alpha:1.]
+#define RGBA(r,g,b,a)      [UIColor colorWithRed:r/255. green:g/255. blue:b/255. alpha:a]
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+// UI Constants
+#define kMainHeight    [ [ UIScreen mainScreen ] bounds ].size.height
+#define kMainWidth     [ [ UIScreen mainScreen ] bounds ].size.width
+#define kMainScale     [ [ UIScreen mainScreen ] bounds ].size.width / 320.0f
+#define kMainScaleMiunes   [ [ UIScreen mainScreen ] bounds ].size.width / 375.0f
+
+#define KColor_Main                    RGB(73, 67, 70)
+#define KColor_White                   UIColorFromRGB(0Xffffff)
+#define KColor_Gray                    UIColorFromRGB(0Xf7f7f7)   //背景灰
+#define KColor_Gray_99                 UIColorFromRGB(0X999999)   //字色灰
+#define KColor_Gray_66                 UIColorFromRGB(0X666666)
+#define KColor_Yellow                  UIColorFromRGB(0Xffcc00)
+#define KColor_Black_Bar               UIColorFromRGB(0X383838)
+#define KColor_Black_Main              UIColorFromRGB(0X333333)
+#define KColor_Black                   UIColorFromRGB(0X000000)
+#define KColor_NO_Color                UIColorFromRGB(0X33cccc)
+#define KColor_Black_Line              UIColorFromRGB(0Xcccccc)
+#define KColor_Purple                  UIColorFromRGB(0X7545f8)  //2.2紫色
+
+#define KColor_Clear                   [UIColor clearColor]
+#define KColor_BG_GRAY                 RGB(235, 235, 235)
+#define KColor_TestColor_red           [UIColor redColor]
+
+#endif /* PrefixHeader_pch */
