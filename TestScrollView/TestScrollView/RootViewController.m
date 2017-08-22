@@ -81,7 +81,8 @@
                                           @"TestPageVC",
                                 @"TableViewCellAnimationViewController",
                                           @"TestCommentListVC",
-                                          @"CardViewController"]];
+                                          @"CardViewController",
+                                        @"GradeAnimationViewController."]];
     
     
 }
@@ -137,6 +138,12 @@
         {
             CardViewController *cardVC = [[CardViewController alloc] init];
             [self.navigationController pushViewController:cardVC animated:YES];
+        }
+            break;
+            case 8:
+        {
+            GradeAnimationViewController *gradeVC = [[GradeAnimationViewController alloc] init];
+            [self.navigationController pushViewController:gradeVC animated:YES];
         }
             break;
         default:

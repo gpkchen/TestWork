@@ -7,13 +7,24 @@
 //
 
 #import "GradeAnimationViewController.h"
+#import "JnifeGradeView.h"
 
 @interface GradeAnimationViewController ()
 
+{
+    CGFloat defaultW;
+    CGFloat defaultH;
+    CGFloat defaultR;
+    CGFloat scale;
+    UIView *bgView;
+}
 
 @property (copy, nonatomic) UILabel     *gradeLabel;
 
 @property (copy, nonatomic) UIButton    *gradeButton;
+
+
+@property (copy, nonatomic) JnifeGradeView  *gradeView;
 
 @end
 
@@ -28,7 +39,7 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self initView];
-    
+
 }
 
 
@@ -36,50 +47,44 @@
 
 - (void)initView{
     
-    [self.view addSubview:self.gradeButton];
+    [self.view addSubview:self.gradeView];
     
-    [self.gradeButton  mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.gradeView  mas_makeConstraints:^(MASConstraintMaker *make) {
        
         make.center.equalTo(self.view);
-        make.size.mas_equalTo(CGSizeMake(20, 20));
+        make.size.mas_equalTo(CGSizeMake(130, 30));
         
     }];
     
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self setText];
+}
+
+
 #pragma mark --- lazy load
 
-- (UILabel *)gradeLabel{
-    if (!_gradeLabel) {
-        _gradeLabel = [[UILabel alloc] init];
-        [_gradeLabel setBackgroundColor:[UIColor darkGrayColor]];
-        
-        
-        
-        
-    }
-    return _gradeLabel;
+- (void)setText {
+    
+    [self.gradeView setTitle:@"10000"];
+    
 }
 
-- (UIButton *)gradeButton {
-    if (!_gradeButton) {
-        _gradeButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
-        [_gradeButton setImage:[UIImage imageNamed:@""] forState:(UIControlStateNormal)];
-        [_gradeButton setBackgroundColor:[UIColor darkGrayColor]];
-        [_gradeButton addTarget:self action:@selector(gradeButtonAction) forControlEvents:(UIControlEventTouchUpInside)];
+- (JnifeGradeView *)gradeView {
+    if (!_gradeView) {
+        _gradeView = [[JnifeGradeView alloc] init];
         
     }
-    return _gradeButton;
+    return _gradeView;
 }
-
 
 
 #pragma mark --- orther Action
 
-- (void)gradeButtonAction{
-    
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
