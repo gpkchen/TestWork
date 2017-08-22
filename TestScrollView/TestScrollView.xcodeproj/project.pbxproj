@@ -55,6 +55,12 @@
 		BAC5CEC71F419F96009041FB /* ZCScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC5CEC61F419F96009041FB /* ZCScreenShot.m */; };
 		BAE3C4D21F39890C00E60E88 /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE3C4D11F39890C00E60E88 /* NSString+StringSize.m */; };
 		BAE3C4D41F399B5000E60E88 /* send_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE3C4D31F399B5000E60E88 /* send_comment@2x.png */; };
+		BAE7F4CA1F4C02970078D5F5 /* GradeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7F4C91F4C02970078D5F5 /* GradeAnimationViewController.m */; };
+		BAE7F4D41F4C0AD00078D5F5 /* button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE7F4CC1F4C0AD00078D5F5 /* button_bg@2x.png */; };
+		BAE7F4D51F4C0AD00078D5F5 /* DeformationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7F4CE1F4C0AD00078D5F5 /* DeformationButton.m */; };
+		BAE7F4D61F4C0AD00078D5F5 /* logo_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE7F4CF1F4C0AD00078D5F5 /* logo_@2x.png */; };
+		BAE7F4D71F4C0AD00078D5F5 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7F4D11F4C0AD00078D5F5 /* MMMaterialDesignSpinner.m */; };
+		BAE7F4D81F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7F4D31F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.m */; };
 		BAF713611EF28DE30001B053 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF7135F1EF28DE30001B053 /* 2.jpg */; };
 		BAF713621EF28DE30001B053 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF713601EF28DE30001B053 /* 3.jpg */; };
 /* End PBXBuildFile section */
@@ -169,6 +175,16 @@
 		BAE3C4D01F39890C00E60E88 /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
 		BAE3C4D11F39890C00E60E88 /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
 		BAE3C4D31F399B5000E60E88 /* send_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send_comment@2x.png"; sourceTree = "<group>"; };
+		BAE7F4C81F4C02970078D5F5 /* GradeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeAnimationViewController.h; sourceTree = "<group>"; };
+		BAE7F4C91F4C02970078D5F5 /* GradeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeAnimationViewController.m; sourceTree = "<group>"; };
+		BAE7F4CC1F4C0AD00078D5F5 /* button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_bg@2x.png"; sourceTree = "<group>"; };
+		BAE7F4CD1F4C0AD00078D5F5 /* DeformationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeformationButton.h; sourceTree = "<group>"; };
+		BAE7F4CE1F4C0AD00078D5F5 /* DeformationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeformationButton.m; sourceTree = "<group>"; };
+		BAE7F4CF1F4C0AD00078D5F5 /* logo_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_@2x.png"; sourceTree = "<group>"; };
+		BAE7F4D01F4C0AD00078D5F5 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		BAE7F4D11F4C0AD00078D5F5 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		BAE7F4D21F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAnimationCircleButtonVC.h; sourceTree = "<group>"; };
+		BAE7F4D31F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAnimationCircleButtonVC.m; sourceTree = "<group>"; };
 		BAF7135E1EF271960001B053 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BAF7135F1EF28DE30001B053 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		BAF713601EF28DE30001B053 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -261,6 +277,7 @@
 				BAACCB0F1F062CA10043385F /* TableViewController.h */,
 				BAACCB101F062CA10043385F /* TableViewController.m */,
 				BAE3C4CF1F3988FD00E60E88 /* UI */,
+				BAE7F4C71F4BFFC90078D5F5 /* JnifegradeAnimation */,
 				BAC5CEBE1F418E3A009041FB /* JnifeAnimation */,
 				BA2745FD1F330DAF00941B09 /* TestCommentList */,
 				BAACCB081F0628DF0043385F /* TestBounce */,
@@ -408,8 +425,8 @@
 		BAAE80481ED96467004FC537 /* Pop */ = {
 			isa = PBXGroup;
 			children = (
-				BA2EF82A1ECD640100337505 /* PopTestViewController.m */,
 				BA2EF8291ECD640100337505 /* PopTestViewController.h */,
+				BA2EF82A1ECD640100337505 /* PopTestViewController.m */,
 			);
 			name = Pop;
 			sourceTree = "<group>";
@@ -500,6 +517,40 @@
 				BAE3C4D11F39890C00E60E88 /* NSString+StringSize.m */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		BAE7F4C71F4BFFC90078D5F5 /* JnifegradeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7F4D91F4C15B00078D5F5 /* JnifeButton */,
+				BAE7F4CB1F4C0AD00078D5F5 /* AnimationCircleButton */,
+				BAE7F4C81F4C02970078D5F5 /* GradeAnimationViewController.h */,
+				BAE7F4C91F4C02970078D5F5 /* GradeAnimationViewController.m */,
+			);
+			name = JnifegradeAnimation;
+			path = UI/JnifegradeAnimation;
+			sourceTree = "<group>";
+		};
+		BAE7F4CB1F4C0AD00078D5F5 /* AnimationCircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7F4CC1F4C0AD00078D5F5 /* button_bg@2x.png */,
+				BAE7F4CD1F4C0AD00078D5F5 /* DeformationButton.h */,
+				BAE7F4CE1F4C0AD00078D5F5 /* DeformationButton.m */,
+				BAE7F4CF1F4C0AD00078D5F5 /* logo_@2x.png */,
+				BAE7F4D01F4C0AD00078D5F5 /* MMMaterialDesignSpinner.h */,
+				BAE7F4D11F4C0AD00078D5F5 /* MMMaterialDesignSpinner.m */,
+				BAE7F4D21F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.h */,
+				BAE7F4D31F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.m */,
+			);
+			path = AnimationCircleButton;
+			sourceTree = "<group>";
+		};
+		BAE7F4D91F4C15B00078D5F5 /* JnifeButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JnifeButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -620,9 +671,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE7F4D61F4C0AD00078D5F5 /* logo_@2x.png in Resources */,
 				BA1296601EAA055700AC340F /* LaunchScreen.storyboard in Resources */,
 				BAAE80531ED97675004FC537 /* 1.jpg in Resources */,
 				BAF713611EF28DE30001B053 /* 2.jpg in Resources */,
+				BAE7F4D41F4C0AD00078D5F5 /* button_bg@2x.png in Resources */,
 				BAF713621EF28DE30001B053 /* 3.jpg in Resources */,
 				BA09E3641EFB55BB00B03579 /* city.json in Resources */,
 				BA12965D1EAA055700AC340F /* Assets.xcassets in Resources */,
@@ -793,6 +846,7 @@
 			files = (
 				BAC5CEC11F418EA5009041FB /* CardViewController.m in Sources */,
 				BA6D637A1EE6773A0058139F /* TestBarViewController.m in Sources */,
+				BAE7F4D51F4C0AD00078D5F5 /* DeformationButton.m in Sources */,
 				BAACCB0B1F06291A0043385F /* TestBounceViewController.m in Sources */,
 				BA8CDBA11EFCE38300511299 /* TableViewCellAnimationViewController.m in Sources */,
 				BAAE80561ED97694004FC537 /* CellAnimaitonCell.m in Sources */,
@@ -807,6 +861,7 @@
 				BA38786D1F3BF1EC0064EDB6 /* HCTextView.m in Sources */,
 				BA02273A1EC15CA1002327E5 /* SecondViewController.m in Sources */,
 				BAACCB0E1F0629B80043385F /* RootViewController.m in Sources */,
+				BAE7F4CA1F4C02970078D5F5 /* GradeAnimationViewController.m in Sources */,
 				BA0227401EC16347002327E5 /* FirViewController.m in Sources */,
 				BA1296551EAA055700AC340F /* AppDelegate.m in Sources */,
 				BA8CDBA41EFCE4D600511299 /* AnimationCell.m in Sources */,
@@ -817,9 +872,11 @@
 				BAB86D5D1F03435D00129E7F /* TestBannerViewController.m in Sources */,
 				BAC5CEC71F419F96009041FB /* ZCScreenShot.m in Sources */,
 				BA1296521EAA055700AC340F /* main.m in Sources */,
+				BAE7F4D81F4C0AD00078D5F5 /* YFAnimationCircleButtonVC.m in Sources */,
 				BAB86D561F03433900129E7F /* HWCircleLayout.m in Sources */,
 				BAB86D661F03463400129E7F /* TestBannerCell.m in Sources */,
 				BAB86D591F03433900129E7F /* HWLineLayout.m in Sources */,
+				BAE7F4D71F4C0AD00078D5F5 /* MMMaterialDesignSpinner.m in Sources */,
 				BA2746091F330DAF00941B09 /* TestCommentListVC.m in Sources */,
 				BAB86D5A1F03433900129E7F /* YFHorizontalScrollViewController.m in Sources */,
 				BAB86D631F03449800129E7F /* JnifeBannerFlowLayout.m in Sources */,
@@ -976,7 +1033,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RUC4M4RM64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/LMM/Desktop/TestScrollView/TestScrollView/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestScrollView/PrefixHeader.pch";
 				INFOPLIST_FILE = TestScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -992,7 +1049,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RUC4M4RM64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/LMM/Desktop/TestScrollView/TestScrollView/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestScrollView/PrefixHeader.pch";
 				INFOPLIST_FILE = TestScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

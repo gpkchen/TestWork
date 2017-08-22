@@ -26,6 +26,8 @@
 
 #import "CardViewController.h"
 
+#import "GradeAnimationViewController.h"
+
 
 @interface RootViewController ()<UITableViewDelegate, UITableViewDataSource>
 
