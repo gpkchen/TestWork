@@ -69,7 +69,7 @@
 
 - (void)setText {
     
-    [self.gradeView setTitle:@"10000"];
+    [self.gradeView setTitle:@""];
     
 }
 
