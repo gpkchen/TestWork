@@ -34,6 +34,7 @@
 		BA8CDBA11EFCE38300511299 /* TableViewCellAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDBA01EFCE38300511299 /* TableViewCellAnimationViewController.m */; };
 		BA8CDBA41EFCE4D600511299 /* AnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8CDBA31EFCE4D600511299 /* AnimationCell.m */; };
 		BA95446C1EEE828200CB61E7 /* TestPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA95446B1EEE828200CB61E7 /* TestPageVC.m */; };
+		BAA041CD1F5567BE00CB62B5 /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA041CC1F5567BE00CB62B5 /* ShadowViewController.m */; };
 		BAACCB0B1F06291A0043385F /* TestBounceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAACCB0A1F06291A0043385F /* TestBounceViewController.m */; };
 		BAACCB0E1F0629B80043385F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAACCB0D1F0629B80043385F /* RootViewController.m */; };
 		BAACCB111F062CA10043385F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAACCB101F062CA10043385F /* TableViewController.m */; };
@@ -141,6 +142,8 @@
 		BA8CDBA31EFCE4D600511299 /* AnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCell.m; sourceTree = "<group>"; };
 		BA95446A1EEE828200CB61E7 /* TestPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPageVC.h; sourceTree = "<group>"; };
 		BA95446B1EEE828200CB61E7 /* TestPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPageVC.m; sourceTree = "<group>"; };
+		BAA041CB1F5567BE00CB62B5 /* ShadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowViewController.h; sourceTree = "<group>"; };
+		BAA041CC1F5567BE00CB62B5 /* ShadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowViewController.m; sourceTree = "<group>"; };
 		BAACCB091F06291A0043385F /* TestBounceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBounceViewController.h; sourceTree = "<group>"; };
 		BAACCB0A1F06291A0043385F /* TestBounceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBounceViewController.m; sourceTree = "<group>"; };
 		BAACCB0C1F0629B80043385F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -288,6 +291,7 @@
 				BAACCB0F1F062CA10043385F /* TableViewController.h */,
 				BAACCB101F062CA10043385F /* TableViewController.m */,
 				BAE3C4CF1F3988FD00E60E88 /* UI */,
+				BAA041CA1F5567A300CB62B5 /* sdWebimageShadow */,
 				BAE7F4C71F4BFFC90078D5F5 /* JnifegradeAnimation */,
 				BAC5CEBE1F418E3A009041FB /* JnifeAnimation */,
 				BA2745FD1F330DAF00941B09 /* TestCommentList */,
@@ -413,6 +417,15 @@
 				BA95446B1EEE828200CB61E7 /* TestPageVC.m */,
 			);
 			name = TestPage;
+			sourceTree = "<group>";
+		};
+		BAA041CA1F5567A300CB62B5 /* sdWebimageShadow */ = {
+			isa = PBXGroup;
+			children = (
+				BAA041CB1F5567BE00CB62B5 /* ShadowViewController.h */,
+				BAA041CC1F5567BE00CB62B5 /* ShadowViewController.m */,
+			);
+			path = sdWebimageShadow;
 			sourceTree = "<group>";
 		};
 		BAACCB081F0628DF0043385F /* TestBounce */ = {
@@ -901,6 +914,7 @@
 				BAE7F4D71F4C0AD00078D5F5 /* MMMaterialDesignSpinner.m in Sources */,
 				BA2746091F330DAF00941B09 /* TestCommentListVC.m in Sources */,
 				BAB86D5A1F03433900129E7F /* YFHorizontalScrollViewController.m in Sources */,
+				BAA041CD1F5567BE00CB62B5 /* ShadowViewController.m in Sources */,
 				BAB86D631F03449800129E7F /* JnifeBannerFlowLayout.m in Sources */,
 				BA95446C1EEE828200CB61E7 /* TestPageVC.m in Sources */,
 				BA2746081F330DAF00941B09 /* CommentMdeol.m in Sources */,

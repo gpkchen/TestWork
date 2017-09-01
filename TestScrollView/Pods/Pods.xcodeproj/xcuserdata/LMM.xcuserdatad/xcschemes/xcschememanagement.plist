@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79F0632147CA923EE439D9B0F4B1D988</key>
+		<key>1E204388357331F5E4C5BC1CC139A786</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8BEB22114AA4226E437CA4319A8AD00A</key>
+		<key>500D70DA86ED28D55A11B4368078C7BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7931F3877299BEBF9ACCD9B3B46DD253</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79F0632147CA923EE439D9B0F4B1D988</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,11 +73,6 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B0CB309A08A08695B8354B5B47507CC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
