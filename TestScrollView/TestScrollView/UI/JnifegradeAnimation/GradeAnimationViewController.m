@@ -40,6 +40,45 @@
     
     [self initView];
 
+    //第一种GET
+    NSURLSession *session = [NSURLSession sharedSession];
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://mobile.ximalaya.com/m/category_tag_list?category=entertainment&device=iPhone&type=album"]];
+    
+    NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+        //拿到响应头信息
+        NSHTTPURLResponse *res = (NSHTTPURLResponse *)response;
+        
+        //4.解析拿到的响应数据
+        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+//        NSLog(@"%@ \n %@", dic, res.allHeaderFields);
+        
+    }];
+    
+    [dataTask resume];
+    
+    //POST
+    NSURLSession *session_post = [NSURLSession sharedSession];
+    
+    NSURL *url = [NSURL URLWithString:@"http://120.25.226.186:32812/login"];
+    
+    NSMutableURLRequest *request_post = [NSMutableURLRequest requestWithURL:url];
+    
+    request_post.HTTPMethod = @"POST";
+    request_post.HTTPBody = [@"username=520it&pwd=520it&type=JSON" dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSURLSessionDataTask *dataTask_post = [session_post dataTaskWithRequest:request_post completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        //拿到响应头信息
+        NSHTTPURLResponse *res = (NSHTTPURLResponse *)response;
+        
+        //解析拿到的响应数据
+        NSLog(@"%@\n%@",[[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding],res.allHeaderFields);
+        
+    }];
+    
+    [dataTask_post resume];
+    
 }
 
 
